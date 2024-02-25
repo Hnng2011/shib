@@ -244,6 +244,7 @@
         const menuButton = document.querySelector('.Menu');
         const closeButton = document.querySelector('.Close');
         const menuDiv = document.querySelector('.menu');
+        const copyButton = document.querySelector('.landing h3 button');
 
         menuButton.addEventListener('click', () => {
             menuButton.classList.remove('active-button');
@@ -264,10 +265,21 @@
                 behavior: 'smooth'
             });
         }
+
         const handleCopy = () => {
-            navigator.clipboard.writeText('0x657888B7eCBEF11bb4c446C6adddđaaaaaaa')
+            const contractAddress = '0x657888B7eCBEF11bb4c446C6adddđaaaaaaa';
+            navigator.clipboard.writeText(contractAddress);
+
+            // Change the content of the button to "Copied"
+            copyButton.textContent = 'Copied';
+
+            // Reset the content after a certain period (e.g., 3 seconds)
+            setTimeout(() => {
+                copyButton.textContent = 'Copy';
+            }, 3000);
         };
     </script>
+
 </body>
 
 </html>
