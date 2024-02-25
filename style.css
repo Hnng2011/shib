@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+svg {
+    width: 8vw;
+    height: 8vw;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: 0.2s ease;
+}
+
+a:hover {
+    color: #FCAD60;
+}
+
+html {
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: rgb(17, 26, 40);
+    color: white;
+    background-size: cover;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='560' height='1440' preserveAspectRatio='none' viewBox='0 0 560 1440'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1007%26quot%3b)' fill='none'%3e%3cpath d='M42.22 140C51.38 73.6 1.65 39.12 28.97 0C50.54 -30.88 84.49 0 140 0C210 0 210 0 280 0C350 0 350 0 420 0C490 0 520.5 -30.5 560 0C590.5 23.55 582.48 69.38 560 108.1C541.84 139.38 505.29 109.26 478.71 140C435.29 190.21 469.19 247.57 420 270C369.84 292.87 341.61 227.05 280 230.59C254.58 232.05 245.95 254.01 245.95 280C245.95 313.72 250.92 349.46 280 350C337.94 351.09 347.6 290.93 420 283.26C487.6 276.1 518.53 279.84 560 320.34C588.53 348.21 560 370.17 560 420C560 490 560 490 560 560C560 583.34 566.64 584.77 560 606.67C545.43 654.77 517.58 658.44 517.58 700C517.58 721.97 552.84 710.09 560 733.73C574.05 780.09 560 786.87 560 840C560 890.12 574.94 897.2 560 940.23C550.64 967.2 511.39 959.31 511.39 980C511.39 1001.92 549.96 996.53 560 1025.45C574.26 1066.53 560 1072.72 560 1120C560 1190 560 1190 560 1260C560 1330 560 1330 560 1400C560 1470 595 1505 560 1540C525 1575 490 1540 420 1540C350 1540 350 1540 280 1540C212.45 1540 210.36 1543.74 144.91 1540C140.36 1539.74 142.77 1532 140 1532C136.9 1532 138.29 1539.71 133.17 1540C68.29 1543.71 32.46 1574.12 0 1540C-34.12 1504.12 0 1470 0 1400C0 1330 0 1330 0 1260C0 1190 0 1190 0 1120C0 1074.23 -10.1 1071.1 0 1028.46C6.48 1001.1 33.16 1002.03 33.16 980C33.16 963.64 4.66 971.34 0 951.69C-11.92 901.34 0 895.85 0 840C0 770 0 770 0 700C0 630 0 630 0 560C0 552.5 -5.41 549.89 0 545C64.59 486.62 68.14 486.16 140 433.46C153.36 423.66 170.43 426.31 170.43 420C170.43 413.84 154.73 415.39 140 408.52C69.51 375.62 50.42 386.74 0 340.45C-19.58 322.48 0 310.23 0 280C0 245 -9.74 242.29 0 210C11.37 172.29 36.9 178.6 42.22 140' stroke='rgba(51%2c 121%2c 194%2c 0.1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M97.78 140C108.79 73.71 55.08 46.81 69.2 0C76.19 -23.19 104.6 0 140 0C210 0 210 0 280 0C327.42 0 363.78 -27.65 374.84 0C391.78 42.35 369.54 82.73 336 140C322.12 163.71 300.3 141.27 280 161.96C231.62 211.27 241.25 222.43 198.65 280C171.25 317.03 175.36 351.15 140 351.15C87.39 351.15 32.48 328.92 22.7 280C11.37 223.35 85.54 213.71 97.78 140' stroke='rgba(51%2c 121%2c 194%2c 0.1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M560 63.8C523.55 63.8 450.43 17.11 450.43 0C450.43 -14.79 525.38 -20.16 560 0C580.16 11.74 578.34 63.8 560 63.8' stroke='rgba(51%2c 121%2c 194%2c 0.1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M320.83 420C320.83 392.07 366.61 373.66 420 364.65C486.19 353.49 505.59 358.15 560 379.66C575.59 385.82 560 399.83 560 420C560 457.19 584.16 484.6 560 494.38C514.16 512.93 486.09 497.22 420 476.67C366.51 460.03 320.83 448.08 320.83 420' stroke='rgba(51%2c 121%2c 194%2c 0.1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M140 817.6C129.12 817.6 119.26 828.29 119.26 840C119.26 853.15 129.02 867.32 140 867.32C151.83 867.32 164.89 853.04 164.89 840C164.89 828.18 151.93 817.6 140 817.6' stroke='rgba(51%2c 121%2c 194%2c 0.1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M0 1431.11C12.48 1431.11 47.8 1501.16 47.8 1540C47.8 1555.61 7.29 1556.61 0 1540C-16.61 1502.16 -11.42 1431.11 0 1431.11' stroke='rgba(51%2c 121%2c 194%2c 0.1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M140 106.4C109.78 106.4 109.43 41.69 109.43 0C109.43 -11.51 124.72 0 140 0C197.82 0 255.65 -22.55 255.65 0C255.65 30.65 182.89 106.4 140 106.4' stroke='rgba(51%2c 121%2c 194%2c 0.1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M560 19.49C548.86 19.49 526.52 5.23 526.52 0C526.52 -4.52 549.42 -6.16 560 0C566.16 3.59 565.6 19.49 560 19.49' stroke='rgba(51%2c 121%2c 194%2c 0.1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M117.3 280C117.3 249.22 131.33 210 140 210C148.35 210 151.35 246.54 151.35 280C151.35 288.42 146.84 293.77 140 293.77C129.82 293.77 117.3 291.11 117.3 280' stroke='rgba(51%2c 121%2c 194%2c 0.1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M73.89 700C73.89 647.89 112 581 140 581C165.93 581 181.75 644.54 181.75 700C181.75 727.84 163.58 747.6 140 747.6C109.65 747.6 73.89 731.19 73.89 700' stroke='rgba(51%2c 121%2c 194%2c 0.1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M0 766.5C15.09 766.5 54.44 808.6 54.44 840C54.44 861.86 17.92 873.03 0 873.03C-9.3 873.03 0 856.51 0 840C0 803.25 -12.13 766.5 0 766.5' stroke='rgba(51%2c 121%2c 194%2c 0.1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M242.67 840C242.67 820.04 259.79 807.69 280 807.69C306.46 807.69 336 817.95 336 840C336 872.29 304.59 916.36 280 916.36C257.93 916.36 242.67 874.37 242.67 840' stroke='rgba(51%2c 121%2c 194%2c 0.1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M501.29 840C501.29 829.31 538.25 818.07 560 818.07C567.61 818.07 560 829.04 560 840C560 850.34 567.32 860.68 560 860.68C537.97 860.68 501.29 850.62 501.29 840' stroke='rgba(51%2c 121%2c 194%2c 0.1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M125.26 980C125.26 966.73 127.93 952.68 140 952.68C166.41 952.68 202.22 967.59 202.22 980C202.22 992.02 167.56 1001.54 140 1001.54C129.08 1001.54 125.26 991.16 125.26 980' stroke='rgba(51%2c 121%2c 194%2c 0.1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M338.33 1120C338.33 1079.54 372.3 1022.78 420 1022C483.13 1020.96 491.48 1068.39 560 1116.36C561.48 1117.39 560 1118.18 560 1120C560 1123.05 562.84 1125.26 560 1126.09C492.84 1145.68 487.87 1162.69 420 1160.83C377.04 1159.65 338.33 1148.96 338.33 1120' stroke='rgba(51%2c 121%2c 194%2c 0.1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M0 1184C47.12 1181.95 70.64 1218.01 140 1253.91C144.06 1256.01 146.83 1256.25 146.83 1260C146.83 1266.66 147.36 1271.96 140 1274.74C73.95 1299.67 50.72 1320.76 0 1315.42C-19.28 1313.39 0 1287.71 0 1260C0 1222 -22.88 1185 0 1184' stroke='rgba(51%2c 121%2c 194%2c 0.1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M267.72 1540C267.72 1535.33 272.66 1524.78 280 1524.78C290.46 1524.78 303.33 1535.86 303.33 1540C303.33 1543.47 291.66 1540 280 1540C273.86 1540 267.72 1542.94 267.72 1540' stroke='rgba(51%2c 121%2c 194%2c 0.1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M501.4 1540C501.4 1526 542.18 1490.59 560 1490.59C571.48 1490.59 573.4 1528.7 560 1540C544.1 1553.4 501.4 1550.7 501.4 1540' stroke='rgba(51%2c 121%2c 194%2c 0.1)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1007'%3e%3crect width='560' height='1440' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}   
+
+nav {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.592);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+
+}
+
+nav ul {
+    display: flex;
+    color: white;
+    gap: 4%;
+    align-items: center;
+    width: 50%;
+    font-size: 12px;
+}
+
+nav ul div {
+    display: flex;
+    gap: 2%;
+    width: 100%;
+}
+
+nav ul {
+    text-transform: uppercase;
+    list-style: none;
+}
+
+nav ul img {
+    width: 4vw;
+    padding: 0.5vw;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+article img {
+    margin-top: 4vw;
+    width: 40vw;
+    height: 40vw;
+    filter: drop-shadow(10px 10px 10px white);
+}
+
+article button {
+    font-size: 1vw;
+    padding: 0.5vw;
+    border-radius: 10px;
+    border: none;
+    background-color: #FFBE6D;
+    cursor: pointer;
+}
+
+.landing {
+    font-size: 3vw;
+    text-align: center;
+    margin-top: 13vw;
+}
+
+.landing div:nth-child(3) {
+    font-size: 2vw;
+    margin-top: 5%;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin-top: 12vw;
+}
+
+.landing h3 {
+    margin-top: 10%;
+    font-size: 1vw;
+}
+
+.landing h3 button{
+    margin-left: 2%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3%;
+    grid-row-gap: 5%;
+}
+
+.grid h3 {
+    color : #FCAD60;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    list-style:circle;
+}
+
+ol li {
+    margin: 1%;
+    padding: 0;
+}
+
+.road {
+    font-size: 18px;
+    margin-left: 10%;
+}
+
+.roadmap h2 {
+    font-size: 16px;
+    color: #FCAD60;
+}
+
+.roadmap li {
+    font-size: 14px;
+}
+
+footer {
+    margin-top: 5%;
+}
+
+footer h2{
+    font-size: 0.8vw;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+
+footer img {
+    width: 5vw;
+}
+
+footer img:nth-child(2) {
+    width: 2vw;
+}
+
+footer img:nth-child(3) {
+    width: 2vw;
+}
+footer img:nth-child(4) {
+    width: 2vw;
+}
+
+
+footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    list-style: none;
+    padding-top: 5%;
+}
+
+.Menu , .Close {
+    display: none;
+}
+
+.ourpartner {
+    text-align: center;
+    width: 80%;
+    margin: 3% auto;
+    
+}
+
+.ourpartner h1 {
+    margin: 0;
+    margin-bottom: 5%;
+}
+
+.ourpartner div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    width: 70%;
+    overflow: hidden;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px 10px #ffbd6dbd;
+}
+
+.ourpartner div img{
+    position: relative;
+    border-radius: 50%;
+    filter: grayscale(1);
+    width: 5vw;
+    margin: 1vw 3vw;
+    animation: move 20s linear infinite;
+}
+
+@keyframes move {
+    0% {
+        transform: translate(0 , 0);
+    }
+
+    100% {
+        
+        transform: translate(calc((-8 * 11vw)) , 0);
+    }
+}
+
+@media (max-width: 960px) {
+
+    nav {
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    nav ul div li{
+        width: 100%;
+    }
+    nav ul {
+        width: 100%;
+    }
+
+    nav ul a {
+        width: 5vw;
+    }
+
+    nav ul div {
+        display: none;
+    }
+
+    nav ul {
+        height: 7vh;
+        background-color: rgba(0, 0, 0, 0.479);
+        backdrop-filter: blur(10px);
+    }
+    
+    .active {
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        position: fixed;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        top: 0%;
+        background-color: rgb(8, 161, 238);
+    }
+
+    .Menu , .Close {
+        display: flex;
+        align-items: center;
+        font-size: 5vw;
+        background-color: transparent;
+        outline: none;
+        border: none;
+        color: white;
+        position: fixed;
+        display: none;
+        z-index: 1001;
+        top: 10%;
+        right: 2%;
+        cursor:  pointer;
+    }
+
+    .active-button {
+        display:block;
+    }
+
+    article {   
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        font-size: 2vw;
+    }
+
+    .landing {
+        margin-top: 0;
+        font-size: 6vw;
+    }
+
+    .landing div:nth-child(3) {
+        font-size: 4vw;
+        margin-top: 5%;
+    }
+
+    article button {
+        margin-top: 5%;
+        font-size: 2vw;
+        padding: 2vw;
+    }
+
+    article img {
+        width: 60vw;
+        height: 60vw;
+    }
+
+    h1 {
+        font-size: 8vw;
+        margin-top: 2%;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 3%;
+    }
+
+    .grid div {
+        width: 90%;
+        margin-left: 10%;
+    }
+
+    .road h1 {
+        margin-left: -10%;
+    }
+
+    .roadmap h2 {
+        font-size: 2vw;
+    }
+
+    .roadmap li {
+        font-size: 1.5vw;
+    }
+
+    footer img:nth-child(2) {
+        width: 3vw;
+    }
+    
+    footer img:nth-child(3) {
+        width: 3vw;
+    }
+    footer img:nth-child(4) {
+        width: 3vw;
+    }
+
+    footer ul {
+        font-size: 2vw;
+    }
+
+    .ourpartner h1 {
+        font-size: 3vw;
+    }
+}
